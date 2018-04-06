@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="monospace"
-            android:text="kevin.lopezaquino@gmail.com"
+            android:text="@string/email"
             android:textSize="12sp" />
 
         <ImageView
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
-            android:text="@57885161k" />
+            android:text="@string/twitter" />
 
     </LinearLayout>
 
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="monospace"
-            android:text="github.com/00251716" />
+            android:text="@string/github" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -113,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
-            android:text="7308-4096" />
+            android:text="@string/phone_number" />
 
     </LinearLayout>
 
@@ -126,9 +126,9 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_height="176dp"
+            android:layout_height="121dp"
             android:layout_gravity="left"
+            android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
             app:srcCompat="@drawable/graph" />
 
@@ -136,11 +136,19 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:fontFamily="monospace"
             android:text="Powered By: Kevin López"
             android:textAlignment="center"
             android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="SHARE"
+            android:layout_gravity="center"/>
+
     </LinearLayout>
 
 </LinearLayout>

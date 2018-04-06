@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AboutKevin</string>
     <string name="my_name">Kevin L\U+00F3pez</string>
+    <string name="email">kevin.lopezaquino@gmail.com</string>
+    <string name="github">github.com/00251716</string>
+    <string name="phone_number">73084095</string>
+    <string name="twitter">@57885161k</string>
 </resources>
