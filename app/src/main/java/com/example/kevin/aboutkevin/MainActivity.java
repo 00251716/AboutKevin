@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         Uri foto = Uri.fromFile(new File(path));
         archivos.add(foto);
+        //
 
         Button shareButton = (Button) findViewById(R.id.shareButton);
         shareButton.setOnClickListener(new View.OnClickListener() {
