@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.setAction(Intent.ACTION_SEND_MULTIPLE);
                 intent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, archivos);
                 intent.setType("image/*");
-                startActivity(Intent.createChooser(intent, "Share images to.."));
+                startActivity(Intent.createChooser(intent, "Compartir a..."));
             }
         });
     }
